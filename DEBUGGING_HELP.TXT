@@ -1,0 +1,6 @@
+*****************************   IF YOU HAVE SOME PROBLEM IN INSERTING QUERY ***************************************
+    if(!mysqli_query($connection,$query))
+                    {
+                        printf("\nerrormessage:%s\n",mysqli_error($connection));
+                    }
+*****************************************************************************************************************                    
